@@ -1,0 +1,252 @@
+[
+  {
+    "tool": "Download Sorter",
+    "description": "Sorted files in: C:\\Users\\tanma/Downloads",
+    "timestamp": "2025-07-20 10:44:41"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened Download Sorter",
+    "timestamp": "2025-07-20 10:44:35"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened Dummy File Generator",
+    "timestamp": "2025-07-20 10:44:34"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened Image to PDF",
+    "timestamp": "2025-07-20 10:44:33"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened PDF Merger",
+    "timestamp": "2025-07-20 10:44:32"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened PDF Editor",
+    "timestamp": "2025-07-20 10:44:31"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened YouTube Downloader",
+    "timestamp": "2025-07-20 10:44:30"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened Helper",
+    "timestamp": "2025-07-20 10:44:19"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened Helper",
+    "timestamp": "2025-07-20 10:43:58"
+  },
+  {
+    "tool": "Error",
+    "description": "Failed to load Helper: No module named 'tools'",
+    "timestamp": "2025-07-20 10:43:32"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened Dummy File Generator",
+    "timestamp": "2025-07-20 10:31:16"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened Download Sorter",
+    "timestamp": "2025-07-20 10:31:14"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened Dummy File Generator",
+    "timestamp": "2025-07-20 10:31:13"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened Download Sorter",
+    "timestamp": "2025-07-20 10:31:12"
+  },
+  {
+    "tool": "PDF Summarizer",
+    "description": "Summarized: sample.pdf",
+    "timestamp": "2025-07-20 10:30:49"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened PDF Summarizer",
+    "timestamp": "2025-07-20 10:30:35"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened PDF Editor",
+    "timestamp": "2025-07-20 10:30:18"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened YouTube Downloader",
+    "timestamp": "2025-07-20 10:17:52"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened PDF Editor",
+    "timestamp": "2025-07-20 10:17:47"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened PDF Summarizer",
+    "timestamp": "2025-07-20 10:16:40"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened Download Sorter",
+    "timestamp": "2025-07-20 10:16:22"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened Dummy File Generator",
+    "timestamp": "2025-07-20 10:16:21"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened Image to PDF",
+    "timestamp": "2025-07-20 10:16:20"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened PDF Merger",
+    "timestamp": "2025-07-20 10:16:20"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened PDF Editor",
+    "timestamp": "2025-07-20 10:15:23"
+  },
+  {
+    "tool": "Error",
+    "description": "Failed to load PDF Editor: No module named 'utils.reader'",
+    "timestamp": "2025-07-20 10:15:08"
+  },
+  {
+    "tool": "Error",
+    "description": "Failed to load PDF Editor: 'Frame' object has no attribute 'title'",
+    "timestamp": "2025-07-20 10:09:20"
+  },
+  {
+    "tool": "Error",
+    "description": "Failed to load PDF Editor: PDFEditorApp.__init__() takes 2 positional arguments but 3 were given",
+    "timestamp": "2025-07-20 10:07:07"
+  },
+  {
+    "tool": "Error",
+    "description": "Failed to load PDF Editor: No module named 'utils.reader'",
+    "timestamp": "2025-07-20 10:02:13"
+  },
+  {
+    "tool": "Error",
+    "description": "Failed to load PDF Editor: No module named 'bots.pdf_editor_tool.main_ui'",
+    "timestamp": "2025-07-20 09:57:56"
+  },
+  {
+    "tool": "Error",
+    "description": "Failed to load PDF Editor: No module named 'bots.pdf_editor_tool.main_ui'",
+    "timestamp": "2025-07-20 09:56:03"
+  },
+  {
+    "tool": "PDF Editor",
+    "description": "Replaced 'hr' with 'tanmay'",
+    "timestamp": "2025-07-19 12:57:28"
+  },
+  {
+    "tool": "PDF Editor",
+    "description": "Loaded: C:/Users/tanma/Downloads/Documents/sample.pdf",
+    "timestamp": "2025-07-19 12:57:19"
+  },
+  {
+    "tool": "PDF Editor",
+    "description": "Replaced 'hr' with 'sgdhfghgjhfdsfasgd'",
+    "timestamp": "2025-07-19 12:50:55"
+  },
+  {
+    "tool": "PDF Editor",
+    "description": "Loaded: C:/Users/tanma/Downloads/Documents/sample.pdf",
+    "timestamp": "2025-07-19 12:50:46"
+  },
+  {
+    "tool": "PDF Editor",
+    "description": "Replaced 'hr' with 'tanmay'",
+    "timestamp": "2025-07-19 12:49:02"
+  },
+  {
+    "tool": "PDF Editor",
+    "description": "Replaced 'hr' with 'tanmay'",
+    "timestamp": "2025-07-19 12:48:56"
+  },
+  {
+    "tool": "PDF Editor",
+    "description": "Loaded: C:/Users/tanma/Downloads/Documents/sample.pdf",
+    "timestamp": "2025-07-19 12:48:45"
+  },
+  {
+    "tool": "PDF Editor",
+    "description": "Replaced 'hr' with 'tanmay'",
+    "timestamp": "2025-07-19 12:48:29"
+  },
+  {
+    "tool": "PDF Editor",
+    "description": "Loaded: C:/Users/tanma/Downloads/Documents/sample.pdf",
+    "timestamp": "2025-07-19 12:48:17"
+  },
+  {
+    "tool": "PDF Editor",
+    "description": "Replaced 'hr' with 'tanmafsfs'",
+    "timestamp": "2025-07-19 12:27:09"
+  },
+  {
+    "tool": "PDF Editor",
+    "description": "Loaded: C:/Users/tanma/Downloads/Documents/sample.pdf",
+    "timestamp": "2025-07-19 12:26:47"
+  },
+  {
+    "tool": "PDF Editor",
+    "description": "Replaced 'hr' with 'tanmay'",
+    "timestamp": "2025-07-19 12:21:27"
+  },
+  {
+    "tool": "PDF Editor",
+    "description": "Loaded: C:/Users/tanma/Downloads/Documents/sample.pdf",
+    "timestamp": "2025-07-19 12:20:47"
+  },
+  {
+    "tool": "PDF Editor",
+    "description": "Loaded: C:/Users/tanma/Downloads/Documents/sample.pdf",
+    "timestamp": "2025-07-19 12:05:33"
+  },
+  {
+    "tool": "PDF Editor",
+    "description": "Replaced 'hr' with 'tanmamda' in 1 places.",
+    "timestamp": "2025-07-19 11:53:36"
+  },
+  {
+    "tool": "PDF Editor",
+    "description": "Loaded: C:/Users/tanma/Downloads/Documents/sample.pdf",
+    "timestamp": "2025-07-19 11:53:28"
+  },
+  {
+    "tool": "PDF Editor",
+    "description": "Replaced 'hr' with 'tanmay' in 1 places.",
+    "timestamp": "2025-07-19 11:47:46"
+  },
+  {
+    "tool": "PDF Editor",
+    "description": "Loaded: C:/Users/tanma/Downloads/Documents/sample.pdf",
+    "timestamp": "2025-07-19 11:47:37"
+  },
+  {
+    "tool": "PDF Editor",
+    "description": "Replaced 'hr' with 'tanmay' in 1 places.",
+    "timestamp": "2025-07-19 11:22:53"
+  }
+]

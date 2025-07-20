@@ -1,0 +1,9 @@
+tk
+PyMuPDF==1.26.3
+PyPDF2
+transformers==4.40.1
+torch
+huggingface-hub
+pillow
+pytube
+moviepy

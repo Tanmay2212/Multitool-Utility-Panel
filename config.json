@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Helper",
+    "module": "bots.helper_ui",
+    "class": "HelperUI",
+    "description": " Shows help for all tools listed in the app. A quick guide to understand what each tool does."
+  },
+  {
+    "name": "YouTube Downloader",
+    "module": "bots.yt_downloader",
+    "class": "YouTubeDownloaderUI",
+    "description": "Download YouTube videos or audios in different resolutions and formats directly to your PC."
+  },
+  {
+    "name": "PDF Editor",
+    "module": "bots.pdf_editor_tool.main",
+    "class": "PDFEditorApp",
+    "description": " Replace specific text inside PDF files with precise formatting. Includes preview, undo/redo, and manual save."
+  },
+  {
+    "name": "PDF Merger",
+    "module": "bots.pdf_merger",
+    "class": "PDFMergerUI",
+    "description": " Merge multiple PDFs into a single file. Drag and drop to reorder before merging."
+  },
+  {
+    "name": "Image to PDF",
+    "module": "bots.image_to_pdf",
+    "class": "ImageToPDFUI",
+    "description": " Convert one or more images into a clean, properly sized PDF file. Supports JPEG, PNG, etc."
+  },
+  {
+    "name": "Dummy File Generator",
+    "module": "bots.filegen_bot",
+    "class": "FileGenUI",
+    "description": " Quickly generate test files (PDF, TXT, Excel, etc.) with dummy content for dev/testing purposes."
+  },
+  {
+    "name": "Download Sorter",
+    "module": "bots.downloads_sorter",
+    "class": "DownloadSorterUI",
+    "description": " Automatically sorts your Downloads folder by file type (images, docs, videos, etc.) into subfolders."
+  },
+  {
+    "name": "PDF Summarizer",
+    "module": "bots.pdf_summarizer",
+    "class": "PDFSummarizerUI",
+    "description": " Summarizes long PDF files using offline AI (DistilBART). Helps you quickly grasp the key points from docs."
+  }
+]
