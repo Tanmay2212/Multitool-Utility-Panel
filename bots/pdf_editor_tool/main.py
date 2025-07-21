@@ -11,13 +11,14 @@ os.makedirs(backup_dir, exist_ok=True)
 class PDFEditorApp:
     def __init__(self, root, container=None):
         self.root = root
-        self.frame = container or root  # 🔁 support both modes
+        self.frame = container or root
 
         self.pdf_path = None
         self.pdf_text = []
         self.undo_stack = []
         self.redo_stack = []
         self.modified_pdf = None
+        self.last_highlight = None  # 🟡 new
 
         self.setup_ui()
 
@@ -32,7 +33,6 @@ class PDFEditorApp:
         tk.Button(top_frame, text="↪️ Redo", command=self.redo, bg="#636e72", fg="white").pack(side="left", padx=5)
         tk.Button(top_frame, text="💾 Save", command=self.save_pdf, bg="#00b894", fg="white").pack(side="right", padx=5)
 
-        # Replace section
         replace_frame = tk.Frame(self.frame, bg="#f1f2f6")
         replace_frame.pack(fill="x", padx=10, pady=10)
 
@@ -52,11 +52,12 @@ class PDFEditorApp:
         self.text_area = tk.Text(self.frame, wrap="word", bg="white")
         self.text_area.pack(fill="both", expand=True, padx=10, pady=10)
 
+        self.text_area.tag_config("highlight", background="yellow", foreground="black")
+
     def load_pdf(self):
         path = filedialog.askopenfilename(filetypes=[("PDF files", "*.pdf")])
         if not path:
             return
-
         try:
             self.pdf_path = path
             self.modified_pdf = None
@@ -70,13 +71,31 @@ class PDFEditorApp:
         except Exception as e:
             messagebox.showerror("Error", f"Failed to load PDF: {e}")
 
-    def show_preview(self):
+    def show_preview(self, highlight_word=""):
         self.text_area.config(state="normal")
         self.text_area.delete("1.0", "end")
-        for page_data in self.pdf_text:
+
+        old = highlight_word.lower() if highlight_word else self.old_entry.get().strip().lower()
+
+        for page_index, page_data in enumerate(self.pdf_text):
+            self.text_area.insert("end", f"\n📄 ChatGPT PDF Style - Page {page_index + 1}\n", "header")
+
             for span in page_data:
-                self.text_area.insert("end", span["text"] + "\n")
+                line = span["text"]
+
+                if old and old in line.lower():
+                    start_idx = self.text_area.index("end-1c")
+                    self.text_area.insert("end", line + "\n")
+                    end_idx = self.text_area.index("end-1c")
+                    self.text_area.tag_add("highlight", start_idx, end_idx)
+                else:
+                    self.text_area.insert("end", line + "\n")
+
+        self.text_area.tag_config("highlight", background="#fff9c4", foreground="black")
+        self.text_area.tag_config("header", foreground="#00b894", font=("Helvetica", 12, "bold"))
+
         self.text_area.config(state="disabled")
+
 
     def replace_text(self):
         if not self.pdf_path:
@@ -117,12 +136,11 @@ class PDFEditorApp:
             doc = replace_text_in_pdf(self.pdf_path, selected, old, new)
             self.modified_pdf = doc
 
-            # Preview temp
             preview_path = self.pdf_path.replace(".pdf", "_preview.pdf")
             doc.save(preview_path)
             self.pdf_path = preview_path
             self.pdf_text = extract_text_with_font(preview_path)
-            self.show_preview()
+            self.show_preview(highlight_word=new)
             self.status_var.set(f"✅ Replaced '{old}' → '{new}'. Click 💾 Save to export.")
         except Exception as e:
             messagebox.showerror("Replace Error", f"Replacement failed: {e}")

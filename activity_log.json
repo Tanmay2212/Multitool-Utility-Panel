@@ -1,5 +1,70 @@
 [
   {
+    "tool": "Navigation",
+    "description": "Opened PDF Editor",
+    "timestamp": "2025-07-21 11:33:12"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened PDF Editor",
+    "timestamp": "2025-07-21 11:32:18"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened PDF Editor",
+    "timestamp": "2025-07-21 11:22:56"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened PDF Editor",
+    "timestamp": "2025-07-21 11:01:18"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened PDF Editor",
+    "timestamp": "2025-07-21 10:59:15"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened YouTube Downloader",
+    "timestamp": "2025-07-21 10:59:15"
+  },
+  {
+    "tool": "Error",
+    "description": "Failed to load PDF Editor: invalid syntax (replacer.py, line 28)",
+    "timestamp": "2025-07-21 10:58:58"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened PDF Editor",
+    "timestamp": "2025-07-21 10:54:16"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened PDF Editor",
+    "timestamp": "2025-07-21 10:37:35"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened YouTube Downloader",
+    "timestamp": "2025-07-21 10:37:35"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened PDF Editor",
+    "timestamp": "2025-07-21 10:36:52"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened PDF Editor",
+    "timestamp": "2025-07-20 11:40:21"
+  },
+  {
+    "tool": "Navigation",
+    "description": "Opened YouTube Downloader",
+    "timestamp": "2025-07-20 11:40:20"
+  },
+  {
     "tool": "Download Sorter",
     "description": "Sorted files in: C:\\Users\\tanma/Downloads",
     "timestamp": "2025-07-20 10:44:41"
@@ -183,70 +248,5 @@
     "tool": "PDF Editor",
     "description": "Replaced 'hr' with 'tanmay'",
     "timestamp": "2025-07-19 12:48:56"
-  },
-  {
-    "tool": "PDF Editor",
-    "description": "Loaded: C:/Users/tanma/Downloads/Documents/sample.pdf",
-    "timestamp": "2025-07-19 12:48:45"
-  },
-  {
-    "tool": "PDF Editor",
-    "description": "Replaced 'hr' with 'tanmay'",
-    "timestamp": "2025-07-19 12:48:29"
-  },
-  {
-    "tool": "PDF Editor",
-    "description": "Loaded: C:/Users/tanma/Downloads/Documents/sample.pdf",
-    "timestamp": "2025-07-19 12:48:17"
-  },
-  {
-    "tool": "PDF Editor",
-    "description": "Replaced 'hr' with 'tanmafsfs'",
-    "timestamp": "2025-07-19 12:27:09"
-  },
-  {
-    "tool": "PDF Editor",
-    "description": "Loaded: C:/Users/tanma/Downloads/Documents/sample.pdf",
-    "timestamp": "2025-07-19 12:26:47"
-  },
-  {
-    "tool": "PDF Editor",
-    "description": "Replaced 'hr' with 'tanmay'",
-    "timestamp": "2025-07-19 12:21:27"
-  },
-  {
-    "tool": "PDF Editor",
-    "description": "Loaded: C:/Users/tanma/Downloads/Documents/sample.pdf",
-    "timestamp": "2025-07-19 12:20:47"
-  },
-  {
-    "tool": "PDF Editor",
-    "description": "Loaded: C:/Users/tanma/Downloads/Documents/sample.pdf",
-    "timestamp": "2025-07-19 12:05:33"
-  },
-  {
-    "tool": "PDF Editor",
-    "description": "Replaced 'hr' with 'tanmamda' in 1 places.",
-    "timestamp": "2025-07-19 11:53:36"
-  },
-  {
-    "tool": "PDF Editor",
-    "description": "Loaded: C:/Users/tanma/Downloads/Documents/sample.pdf",
-    "timestamp": "2025-07-19 11:53:28"
-  },
-  {
-    "tool": "PDF Editor",
-    "description": "Replaced 'hr' with 'tanmay' in 1 places.",
-    "timestamp": "2025-07-19 11:47:46"
-  },
-  {
-    "tool": "PDF Editor",
-    "description": "Loaded: C:/Users/tanma/Downloads/Documents/sample.pdf",
-    "timestamp": "2025-07-19 11:47:37"
-  },
-  {
-    "tool": "PDF Editor",
-    "description": "Replaced 'hr' with 'tanmay' in 1 places.",
-    "timestamp": "2025-07-19 11:22:53"
   }
 ]
